@@ -17,11 +17,11 @@ namespace EmberSpirit
         private static bool toggle = true;
         private static Font txt;
         private static Font not;
-        private static Key KeyCombo = Key.D;
+        private static Key KeyCombo = Key.T;
         private static bool loaded;
         private static Hero me;
         private static Hero target;
-        private const Key ChaseKey = Key.D;
+        private const Key ChaseKey = Key.T;
         private static ParticleEffect rangeDisplay;
         static void Main(string[] args)
         {
